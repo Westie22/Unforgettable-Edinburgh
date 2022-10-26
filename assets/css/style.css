@@ -209,3 +209,27 @@ ul {
 h3 {
     font-weight: bold;
 }
+
+/* footer */
+footer {
+    background-color: darkslateblue;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+}
+
+footer > span {
+    color: silver;
+    font-weight: bold;
+    font-size: 1rem;
+}
+footer > a {
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
+}
