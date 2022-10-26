@@ -131,6 +131,7 @@ p {
     border-radius: 4px;
     text-align: center;
     padding: 20px;
+    margin-bottom: 50px;
 }
 .tour-item-title {
     font-size: 1.5rem;
@@ -156,4 +157,55 @@ p {
     font-size: 2.5rem;
     font-weight: bold;
     padding: 20px;
+}
+
+/* contact */
+#contact {
+    margin-bottom: 100px;
+}
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+.contact-box-left {
+    width: 250px;
+    margin-top: 50px;
+    float: left;
+}
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: 50px;
+    float: right;
+}
+.spacer {
+    clear: both;
+}
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 30px auto;
+    text-align: center;
+}
+h3 {
+    font-size: 20px;
+}
+th, td {
+    border-bottom: 1px solid black;
+}
+ul {
+    padding: 0;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
 }
