@@ -88,12 +88,12 @@ animation-fill-mode: backwards;
     letter-spacing: 4px;
 
     width: 300px;
-    height: 200px;
+    height: 150px;
 
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(246, 172, 13, 0.774);
+    background-color: rgba(183, 132, 21, 0.876);
 
     bottom: 60px;
     right: 100px;
@@ -120,43 +120,58 @@ p {
 }
 .tours {
     display: flex;
-    box-sizing: border-box;
+    
 }
 
 .tour-item {
-    width: 1000px;
-    height: 200px;
+    width: 2000px;
+    height: 250px;
     border: 1px solid black;
-    margin: 5px;
+    margin: 10px;
     border-radius: 4px;
     text-align: center;
     padding: 20px;
     margin-bottom: 50px;
+    margin-top: 20px;
+  
 }
 .tour-item-title {
     font-size: 1.5rem;
-    background: rgba(75, 44, 230, .3);
     text-align: center;
     height: 40px;
+    line-height: 40px;
     border-bottom: 1px solid black;
+    margin: 0 auto;
 }
 
 .tour-item-button {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
-    border-radius: 0.3rem;
-    color: purple;
+    border-radius: .3rem;
+    color: rgb(90, 22, 22);
     background-color: transparent;
     background-image: none;
-    border-color: purple;
-    margin-top: 30px;
+    border-bottom: rgb(90, 22, 22);
+    margin-top: 50px;
+    display: inline-block;
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .tour-item-price {
     font-size: 2.5rem;
     font-weight: bold;
     padding: 20px;
+}
+
+.tour-item-button--active {
+    background-color:  rgb(77, 10, 10);
+    color: whitesmoke;
+}
+.tour-item-button:hover {
+    background-color: brown;
+    color: whitesmoke;
 }
 
 /* contact */
@@ -189,6 +204,7 @@ p {
 }
 h3 {
     font-size: 20px;
+    font-weight: bolder;
 }
 th, td {
     border-bottom: 1px solid black;
@@ -212,7 +228,7 @@ h3 {
 
 /* footer */
 footer {
-    background-color: darkslateblue;
+    background-color: rgb(120, 102, 239);
     padding: 1em;
     text-align: center;
     width: 100%;
@@ -223,12 +239,12 @@ footer {
 }
 
 footer > span {
-    color: silver;
+    color: beige;
     font-weight: bold;
     font-size: 1rem;
 }
 footer > a {
-    color: beige;
+    color: whitesmoke;
     text-decoration: none;
     padding: 0 15px;
     font-size: 1rem;
