@@ -229,7 +229,7 @@ h3 {
 
 /* footer */
 footer {
-    background-color: rgb(120, 102, 239);
+    background-color: rgb(113, 95, 227);
     padding: 1em;
     text-align: center;
     width: 100%;
@@ -239,16 +239,17 @@ footer {
     z-index: 3;
 }
 
-footer > span {
-    color: tan;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
+footer > span { 
+    color: goldenrod;
 }
 footer > a {
     color: whitesmoke;
     text-decoration: none;
     padding: 0 15px;
     font-size: 1rem;
+}
+
+footer > p {
+    color: red;
 }
 
