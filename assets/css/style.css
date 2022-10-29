@@ -99,6 +99,8 @@ animation-fill-mode: backwards;
 
     bottom: 60px;
     right: 100px;
+
+    position: absolute;
 }
 
 /* main contents */
