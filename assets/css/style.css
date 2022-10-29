@@ -240,7 +240,7 @@ footer {
 }
 
 footer > span { 
-    color: goldenrod;
+    color: whitesmoke;
 }
 footer > a {
     color: whitesmoke;
@@ -249,7 +249,4 @@ footer > a {
     font-size: 1rem;
 }
 
-footer > p {
-    color: red;
-}
 
