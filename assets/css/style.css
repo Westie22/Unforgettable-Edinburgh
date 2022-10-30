@@ -252,3 +252,58 @@ footer > p {
 }
 
 /* feedback form */
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+input[type=text],
+input[type=email] {
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgb(19, 46, 197);
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+input[type=reset] {
+    margin-top: 20px;
+    margin-left: 0.75rem;
+    padding: 0.75rem;
+    background-color: rgb(74, 90, 181);
+    color: brown;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+form {
+    clear: left;
+    background: url(../images/blackandwhite_edinburgh.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding: 30px;
+}
+.block-label {
+    display: block;
+}
+legend {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px 0 5px 0;
+}
+
+.float-left {
+    float: left;
+}
+
+label {
+    margin: 10px 0px 5px 0;
+}

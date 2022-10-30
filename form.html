@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A few days explore in Edinburgh, Scotland">
-    <meta name="keywords" content="expore the city, city break, scotland, edinburgh">
+    <meta name="description" content="Send us your feedback to improve our quality!">
+    <meta name="keywords" content="expore the city, city break, scotland, edinburgh, feedback">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Unforgettable Edinburgh</title>
+    <title>Send us your feedback!</title>
 </head>
 
 <body>
     <!-- navigation / header -->
-    <header>
-        
+    <header class="form-page-header page-header text-left">
+        <div class="vertical-center"></div> 
         <a href="index.html">
-            <h1 id="logo">Unforgettable Edinburgh</h1>
+            <h1 id="logo">Send us your feedback!</h1>
         </a>
+    </header>
         <nav>
             <ul>
             <li>
@@ -33,25 +34,31 @@
             </li>
         </ul>
         </nav>
-</header>
-<h3 class="container">Send us Feedback!</h3>
-<div>
-    <form action="/action_page.php">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="first_name" placeholder="Your name is..">
+        <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
+                <legend>Your Details</legend>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="last_name" placeholder="Your last name is..">
+                <div class="float-left">
+                    <label for="name-field" class="block-label">Name</label>
+                    <input type="text" id="name-field" name="full-name" placeholder="Your name" reqired>
+                </div>
+                <div class="float-left">
+                    <label for="email-field" class="block-label">Email Address</label>
+                    <input type="email" id="email-field" name="email" placeholder="Your Email" required>
+                </div>   
+            </fieldset>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email_address" placeholder="Your email address is..">
+            <fieldset>
+                <legend>Feeback</legend>
+                <label for="feedback" class="block-label">How much did you like our tour in Edinburgh?</label>
+                <br>
+                <textarea name="feedback" id="feedback" cols="50" rows="10"></textarea>
+            </fieldset>
 
-        <label for="subject">Tell us all about Edinburgh!</label>
-        <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+            <input type="submit" class="block-label" value="Send">
+            <input type="reset" value="Reset Form">
+        </form>
 
-        <input type="submit" value="Send">
-    </form>
-</div>
 <!-- footer -->
 <footer class="text-uppercase">
         <span>Find Us</span>
