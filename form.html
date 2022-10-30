@@ -34,25 +34,24 @@
         </ul>
         </nav>
 </header>
+<h3 class="container">Send us Feedback!</h3>
+<div>
+    <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first_name" placeholder="Your name is..">
 
-<section class="feedback-section">
-    <form class="feedback-form" method="POST" action="https://formdump.codeinstitute.net/">
-          <h2>Win a coffee for free!</h2>
-          <p>Leave feedbacks, it will get you a free coffee!</p>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="last_name" placeholder="Your last name is..">
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" placeholder="Your email address is..">
+
+        <label for="subject">Tell us all about Edinburgh!</label>
+        <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Send">
     </form>
-    <label for="fname">First Name</label>
-    <input type="text" class="text-input" id="fname" name="first_name" required>
-    <label for="lname">Last Name</label>
-    <input type="text" class="text-input" id="lname" name="last_name" required>
-    <label for="email">Email Address</label>
-    <input type="email" class="text-input" id="email" name="email_address">
-    <label for="message" id="message">Your Feedback</label>
-    <textarea name="" id="" cols="30" rows="10" placeholder="Give us your feedback here"></textarea>
-
-    <button type="submit">Send</button>
-    <button type="submit">Reset</button>
-</section>
-
+</div>
 <!-- footer -->
 <footer class="text-uppercase">
         <span>Find Us</span>
