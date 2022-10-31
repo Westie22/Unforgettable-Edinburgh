@@ -112,7 +112,7 @@ animation-fill-mode: backwards;
 
 #title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 2.95rem;
     font-weight: bold;
     color: darkblue;
 }
@@ -137,7 +137,6 @@ p {
     margin-bottom: 50px;
     margin-top: 20px; 
 }
-
 .tour-item-title {
     color: darkblue;
     font-size: 1.5rem;
@@ -321,4 +320,78 @@ textarea {
     background: transparent;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+/* for media screen sizes from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #main {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #title {
+        padding: 30px 0;
+        margin: 0;
+    }
+    #booknow {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-bottom: 1px;
+    }
+    #contact {
+        width: 100%;
+        float: left;
+        padding: 0;
+        margin-top: 1px;
+    }
+
+    .tours, .tour-item-button, .tour-item-button--active {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    .text-center, .contact-boxes-container, .contact-box-center, .bold, .contact-box-right {
+        width: 100%;
+        float: left;
+        padding: 0;   
+    }    
+}
+/* for media screen sizes from 950px widh and down */
+@media screen and (max-width: 950px) {
+
+    #logo {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+    
+    #cover-text {
+        left: 0;
+    }
+    #main {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #booknow, #contact {
+        width: 90%;
+        height: auto;
+        float: left;
+        margin: 0;
+    }
+    .tours, .tour-item-button, .tour-item-button--active {
+        width: 80%;
+        float: left;
+        padding: 0;
+    }
+    p > a{
+        width: 90%;
+        float: left;
+        padding: 0;
+    }
 }
