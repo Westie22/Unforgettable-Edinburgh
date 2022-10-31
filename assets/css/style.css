@@ -397,7 +397,7 @@ textarea {
 }
 
 /* media screen size from 768px width and down */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 481px) {
     #logo {
         clear: left;
         float: left;
