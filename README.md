@@ -80,7 +80,7 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 ### Contents
 
 - The text for the Home page was taken from Love Running.
-- Item list boxes are learned from [this YouTube](https://www.youtube.com/watch?v=n4R2E7O-Ngo&t=5900s) channel.
+- Item list boxes are learned from this [YouTube](https://www.youtube.com/watch?v=n4R2E7O-Ngo&t=5900s) channel.
 - Item list buttons/Feedback pages are learned from [W3schools](https://www.w3schools.com/) and [YouTube](https://www.youtube.com/watch?v=mJgBOIoGihA&t=2335s) channel.
 - Social Media links are taken by Code Institute modules - Love Running & Coders Coffee Project.
 
