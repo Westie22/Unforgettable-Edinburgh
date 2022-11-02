@@ -45,7 +45,7 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
 - __Back To Top__
 
- - This section gives users to go back to top of the navigation section eaily.
+  - This section gives users to go back to top of the navigation section eaily.
   
  ![alt text](media/unforgattable_edinburgh_backtotop.png)
 
