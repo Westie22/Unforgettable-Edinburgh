@@ -6,6 +6,8 @@ The site contains three very attractive items for daily tour in Endibugh - Arthu
 
 Unforgettable Edinburgh will be very helful for people to explore the city and gives an never forgettable happy memory!
 
+![alt text](media/unforgettable_edinburgh_device.png)
+
 ## Features
 
 * Featured at the top of the page, the navigation shows the Logo- the site name in the left corner: UNFORGETTABLE EDINBURGH that links to the top of the page.
