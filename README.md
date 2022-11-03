@@ -75,7 +75,13 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
     - Need to fix the size for Phone device
 
 
-## Testing
+## Validator Testing
+ - HTML
+ - CSS
+ - Accessibility
+   - I confirmed that the colors and fonts chosen are easy to ready and accessible by running it via Lighthouse in devtools.
+ 
+![alt text](media/unforgettable_edinburgh_accessibility.png)
 
 
 ### Validator Testing
