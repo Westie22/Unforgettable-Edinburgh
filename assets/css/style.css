@@ -180,18 +180,20 @@ p {
 
 /* contact */
 #contact {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .contact-box-left {
     width: 250px;
     margin-top: 50px;
+    margin-left: 200px;
     float: left;
 }
 .contact-box-right {
     width: 250px;
     text-align: right;
     margin-top: 50px;
+    margin-right: 200px;
     float: right;
 }
 .spacer {
