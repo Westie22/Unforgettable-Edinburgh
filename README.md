@@ -83,9 +83,6 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
  
 ![alt text](media/unforgettable_edinburgh_accessibility.png)
 
-
-### Validator Testing
-
 ### Unfixed Bugs
 
 ## Deployment
