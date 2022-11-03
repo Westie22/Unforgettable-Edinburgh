@@ -77,9 +77,10 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
 ## Validator Testing
  - HTML
-   - No errors were returned when passing through the official [W3C Validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Findex.html) and [W3C Validator - form.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Fform.html)
+   - No errors were returned when passing through the official [W3C Validator - index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Findex.html) for Home page.
+   - For Feedback page [W3C Validator - form.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Fform.html).
  - CSS
-   - No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+   - No errors were found when passing throught the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwestie22.github.io%2FUnforgettable-Edinburgh%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
  - Accessibility
    - I confirmed that the colors and fonts chosen are easy to ready and accessible by running it via Lighthouse in devtools.
  
@@ -103,4 +104,4 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
 
 ### Media
-- The photos used on the home and feedback pages are from this open source site [Pexels](https://www.pexels.com/) 
+- The photos used on the home and feedback pages are from this open source site [Pexels](https://www.pexels.com/).
