@@ -103,4 +103,4 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
 
 ### Media
-- The photos used on the home and feedback pages are from this open source site [Pexels].(https://www.pexels.com/) 
+- The photos used on the home and feedback pages are from this open source site [Pexels](https://www.pexels.com/) 
