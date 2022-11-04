@@ -69,10 +69,10 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 ![alt text](media/unforgettable_edinburgh_feedback.png)
 
 
-### Features Left to Implement
+### Features Left to Fix/Implement
 
 - __Media Queries__
-    - Need to fix the size for Phone device
+    - Need to fix the size for Phone device, there is bug, however max 600px, contact section's not fixed.
 
 
 ## Validator Testing
@@ -85,8 +85,6 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
    - I confirmed that the colors and fonts chosen are easy to ready and accessible by running it via Lighthouse in devtools.
  
 ![alt text](media/unforgettable_edinburgh_accessibility.png)
-
-### Unfixed Bugs
 
 ## Deployment
 - This site was deployed to GitHub pages. The steps to deploy are as below:
