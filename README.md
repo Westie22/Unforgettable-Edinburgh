@@ -42,7 +42,7 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
   - This section includes of tour start & end hours, meet point and contact detail with telephone number and email address so users can find any initial informtion for their tour.
   
- ![alt text](media/unforgettable_edinburgh_contact.png)
+ ![alt text](media/unforgettable_edinburgh_contact_v2.png)
 
 
 - __Back To Top__
