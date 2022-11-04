@@ -89,7 +89,13 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 ### Unfixed Bugs
 
 ## Deployment
-
+- This site was deployed to GitHub pages. The steps to deploy are as below:
+  - In the GitHub repository, naviagte to the Setting tab
+  - From the soure section, left-side, select Page
+  - From the Page, the source section drop-down menu, select the Master Branch
+  - Underneath the Master Branch, selct 'main' and '/root' from the Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://westie22.github.io/Unforgettable-Edinburgh/
 ## Credits
 
 - UNFORGETTABLE EDINBURGH is inspired & reffered by Code Institute modules- Love Running, Corders Coffee Project and some Youtube channels.
