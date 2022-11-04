@@ -1,400 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
-
-/* headings & logo*/
-h1, h2 {
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 20px;
-
-}
-/* navigatin links */
-ul {
-    font-size: 110%;
-    letter-spacing: 4px;
-    line-height: 75px;
-}
-
-li{
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-li a {
-    text-decoration: none;
-    color: inherit;
-}
-
-li a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* main image-edinburgh */
-
-#edinburgh-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: white;
-}
-
-#edinburgh-image {
-    height: 800px;
-    width: 100%;
-    background: url(../images/edinburgh-city.jpeg) no-repeat center fixed;
-    background-size: cover;
-
-/* animates zoom effects on loading page */
-animation-name: edinburgh-zoom;
-animation-duration: 3s ;
-animation-fill-mode: backwards;
-}
-/* creates the level of zoom for edinburgh image */
-@keyframes edinburgh-zoom {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
-}
-
-#cover-text {
-    font-size: 140%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 350px;
-    height: 180px;
-    
-
-    padding-top: 40px;
-    padding-left: 40px;
-
-    background-color: rgba(235, 179, 59, 0.763);
-
-    bottom: 60px;
-    right: 80px;
-
-    position: absolute;
-}
-
-/* main contents */
-#main {
-    width: 600px;
-    margin: 0 auto;
-    margin-top: 30px; 
-}
-
-#title {
-    text-align: center;
-    font-size: 2.95rem;
-    font-weight: bold;
-    color: darkblue;
-}
-p {
-    text-align: center;
-    font-size: 1.25rem;
-    font-weight: 300;
-}
-.tours {
-    display: flex;
-    
-}
-
-.tour-item {
-    width: 2000px;
-    height: 250px;
-    border: 1px solid black;
-    margin: 10px;
-    border-radius: 5px;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 50px;
-    margin-top: 20px; 
-}
-.tour-item-title {
-    color: darkblue;
-    font-size: 1.5rem;
-    
-    text-align: center;
-    height: 40px;
-    line-height: 40px;
-    border-bottom: 1px solid black;
-    margin: 0 auto;
-}
-
-.tour-item-button {
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    line-height: 1.5;
-    border-radius: .3rem;
-    background-color: transparent;
-    background-image: none;
-    margin-top: 50px;
-    display: inline-block;
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-
-.tour-item-price {
-    font-size: 2.5rem;
-    font-weight: bold;
-    padding: 20px;
-}
-
-.tour-item-button--active {
-    background-color:  rgb(77, 10, 10);
-    color: whitesmoke;
-}
-.tour-item-button:hover {
-    background-color: brown;
-    color: whitesmoke;
-}
-
-/* contact */
-#contact {
-    margin-bottom: 200px;
-}
-
-.contact-box-left {
-    width: 250px;
-    margin-top: 50px;
-    margin-left: 200px;
-    float: left;
-}
-.contact-box-right {
-    width: 250px;
-    text-align: right;
-    margin-top: 50px;
-    margin-right: 200px;
-    float: right;
-}
-.spacer {
-    clear: both;
-}
-.contact-box-center {
-    width: 250px;
-    height: 250px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-th, td {
-    border-bottom: 1px solid black;
-}
-ul {
-    padding: 0;
-}
-.text-center {
-    text-align: center;
-}
-.text-right {
-    text-align: right;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-/* footer */
-footer {
-    background-color: rgb(68, 41, 244);
-    padding: 1em;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 3;
-}
-
-footer > span { 
-    color: whitesmoke;
-}
-
-footer > a {
-    color: whitesmoke;
-    text-decoration: none;
-    padding: 0 15px;
-    font-size: 1rem;
-}
-
-footer > p {
-    color: whitesmoke;
-    font-size: 1rem;
-}
-
-/* feedback form */
-fieldset {
-    border: none;
-}
-
-input[type=text],
-input[type=email] {
-    height: 30px;
-    width: 90%;
-    padding-left: 10px;
-    margin: 0 auto;
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-input[type=submit] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: rgb(16, 29, 104);
-    color: silver;
-    border: 1px solid none;
-    border-radius: 5px;
-}
-input[type=reset] {
-    margin-top: 20px;
-    margin-left: 0.75rem;
-    padding: 0.75rem;
-    background-color: rgb(16, 29, 104);
-    color: silver;
-    border: 1px solid none;
-    border-radius: 5px;
-}
-
-input[type=submit], [type=reset]:hover {
-    background-color: rgb(69, 8, 8);
-}
-
-form {
-    clear: left;
-    background: url(../images/blackandwhite_edinburgh.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    padding: 210px;
-    ;}
-
-.block-label {
-    display: block;
-}
-
-legend {
-    font-size: 20px;
-    font-weight: 600;
-    margin: 10px 0 5px 0;
-}
-
-.float-left {
-    float: left;
-}
-
-label {
-    margin: 10px 0px 5px 0;
-}
-
-textarea {
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-/* media queries have not been working properly, now disabled below  */
-
-/* for media screen sizes from 1200px wide and down */
-/*/@media screen and (min-width: 1200px) {
-    #main {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-    #title {
-        padding: 30px 0;
-        margin: 0;
-    }
-    #booknow {
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin-bottom: 1px;
-    }
-    #contact {
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin-top: 1px;
-    }
-
-    .tours, .tour-item-button, .tour-item-button--active {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-    .text-center, .contact-boxes-container, .contact-box-center, .bold, .contact-box-right {
-        width: 100%;
-        float: left;
-        padding: 0;   
-    }    
-}
-/* for media screen sizes from 950px widh and down */
-/*@media screen and (min-width: 800px) {
-
-    #logo {
+@media screen and (max-width: 950px) {
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
-        margin-top: 20px;
         line-height: 25px;
     }
-    
+
     #cover-text {
         left: 0;
     }
     #main {
         width: 90%;
-        height: 1200px;
+        height: 600px;
         margin: 0 auto;
     }
 
-    #booknow, #contact {
-        width: 90%;
-        height: auto;
-        float: left;
-        margin: 0;
+    .contact-box-left, .contact-box-center, .contact-box-right {
+        width: inherit;
+
     }
-    .tours, .tour-item-button, .tour-item-button--active {
-        width: 80%;
+    .contact-box-center h3 {
+        width: inherit;
+        padding-left: 20px;
+    }
+    .contact-box-center p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    #title > p {
+        width: 0;
+        text-align: left;
+    }
+  .tour-item, .tour-item-title, .tour-item-price, .tour-item-button, .tour-item-button:hover, .tour-item-button--active {
+    width: 100%;
+    margin-right: 40px;
+    float: center;
+    text-align: center;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    #menu {
+        clear: left;
         float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+
+    .tour-item, .tour-item-title, .tour-item-price {
+        width: inherit;
+        margin-right: 20px;
+        float: center;
+        text-align: center;
+        padding-left: 10px;
+      }
+
+      .tour-item-title {
+        text-align: center;
+
+      }
+
+
+    .contact-box-center p {
+        text-align: center;
         padding: 0;
     }
-    p > a{
-        width: 90%;
-        float: left;
-        padding: 0;
-    }
-} */
+}
