@@ -360,44 +360,6 @@ textarea {
         padding: 0;   
     }    
 }
-/* for media screen sizes from 950px widh and down */
-/*@media screen and (min-width: 800px) {
-
-    #logo {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        line-height: 25px;
-    }
-    
-    #cover-text {
-        left: 0;
-    }
-    #main {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #booknow, #contact {
-        width: 90%;
-        height: auto;
-        float: left;
-        margin: 0;
-    }
-    .tours, .tour-item-button, .tour-item-button--active {
-        width: 80%;
-        float: left;
-        padding: 0;
-    }
-    p > a{
-        width: 90%;
-        float: left;
-        padding: 0;
-    }
-} */
 
 /* for media screen sizes from 950px widh and down */
 
@@ -463,10 +425,8 @@ textarea {
 
       .tour-item-title {
         text-align: center;
-
       }
-
-
+    
     .contact-box-center p {
         text-align: center;
         padding: 0;
