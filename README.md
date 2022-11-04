@@ -6,7 +6,7 @@ The site contains three very attractive items for daily tour in Endibugh - Arthu
 
 Unforgettable Edinburgh will be very helful for people to explore the city and gives an never forgettable happy memory!
 
-![alt text](media/unforgettable_edinburgh_responsive_v2.png)
+![alt text](media/unforgettable_edinburgh_responsive_v3.png)
 
 ## Features
 
@@ -42,7 +42,7 @@ Unforgettable Edinburgh will be very helful for people to explore the city and g
 
   - This section includes of tour start & end hours, meet point and contact detail with telephone number and email address so users can find any initial informtion for their tour.
   
- ![alt text](media/unforgettable_edinburgh_contact_v3.png)
+ ![alt text](media/unforgettable_edinburgh_contact_v2.png)
 
 
 - __Back To Top__
